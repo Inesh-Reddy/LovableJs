@@ -50,6 +50,7 @@ The server expects a `.env` file inside the `server` directory. Example:
 
 ```env
 API_PORT=3000
+DATABASE_URL=postgresql://****:****@localhost:5432/********
 ```
 
 ## Scripts
