@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "tsx watch --exclude node_modules/** src/index.ts",
     "start": "tsx src/index.ts",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
